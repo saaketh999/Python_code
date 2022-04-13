@@ -1,0 +1,12 @@
+movies=[("Pushpa","Sukumar",2018,"365cr")]
+print(movies)
+tile=input("Enter title name : ")
+direc=input("Enter director name: ")
+year=int(input("enter year of release of movie: "))
+budget=input("Enter estimated budget of the movie: ")
+new_movie=(tile,direc,year,budget)
+#print(new_movie)
+#print(f"{new_movie[0]},{new_movie[2]}")
+movies.append(new_movie)
+print(movies)
+print(f"{movies[0]},/n{movies[1]}")
